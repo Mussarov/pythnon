@@ -1,0 +1,56 @@
+my_school = "인하공전"
+length = len(my_school)
+print(length)
+
+print(my_school[1:len(my_school)])
+
+
+
+#a = "Inha" 0부터 시작, n출력
+#print(a[1]) 2부터 시작, 끝까지
+#print(a[2:4]) 2부터 시작, 4전까지
+
+
+
+print(3+2)
+print(3*2)
+
+print(3/2) #(1)
+print(3//2) #(1)
+print(3%2) 
+
+print(3**2) #(2)
+
+
+
+#변구가ㅣ 알고 있는 값의 위치 찾기
+
+a=1
+print(a, id(a))
+
+b=1
+print(b, id(b))
+
+a=1.1
+print(a, id(a))
+
+a="인하"
+print(a, id(a))
+
+
+#복합 대입 연사자
+
+number=10
+number+=10
+number-=10
+number-=4
+number*=2
+number/=4
+number**2
+print(number)
+
+#p.117
+number="10"
+number+="b"
+number*=10
+print(number)
